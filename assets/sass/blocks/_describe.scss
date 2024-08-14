@@ -1,0 +1,66 @@
+.describe{
+    &__h1{
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        color: #3b3b3b;
+        text-transform: uppercase;
+        margin-top: 50px;
+    }
+    &__logoTitle{
+        width: 100%;
+        text-align: center;
+    }
+    &__logoImg{
+        max-width: 100%;
+    }
+}
+.section2{
+    padding-top: 40px;
+    &__imgdescribe{
+        padding-left: 250px;
+        position: relative;
+        width: 100%;
+    }
+    &__imgdesc{
+        width: 860px;
+    }
+    &__textdesc{
+        width: 500px;
+        background-color: #ffffff;
+        height: auto;
+        padding: 40px 20px 30px 20px;
+        box-shadow: 0px 0px 30px 0px;
+        position: absolute;
+        top: 1180px;
+        left: 0;
+    }
+    &__h1{
+        font-size: 30px;
+        color: #3b3b3b;
+        text-transform: capitalize;
+    }
+    &__p{
+        font-size: 16px;
+        color: #232222;
+    }
+    &__descbtn{
+        width: 170px;
+        margin-top: 40px;
+    }
+    &__btn{
+        font-size: 18px;
+        width: 100%;
+        color: #d78373;
+        text-transform: uppercase;
+        border: 1px solid #fc947f;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        transition: .5s;
+    }
+    &__btn :hover{
+        border: 1px solid #3b3b3b;
+        color: #3b3b3b;
+    }
+}
