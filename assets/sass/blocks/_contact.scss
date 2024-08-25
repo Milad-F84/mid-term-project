@@ -1,0 +1,62 @@
+.contact{
+    width: 100%;
+    padding-top: 55px;
+    &__row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    &__contactBox{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    &__mailbox{
+        width: 50%;
+        margin: 0 auto;
+    }
+    &__user{
+        width: 100%;
+        font-size: 16px;
+        color: #2e2e2d;
+        border: 0px;
+        background-color: #efefef;
+        padding: 11px 20px;
+        border-radius: 40px;
+        margin-top: 20px;
+    }
+    &__massage{
+        width: 100%;
+        color: #2e2e2d;
+        font-size: 18px;
+        background-color: #efefef;
+        padding: 40px 20px 0px 20px;
+        border: 0px;
+        height: 110px;
+        border-radius: 40px;
+        margin-top: 20px;
+    }
+    &__send{
+        text-align: center;
+        margin: 0 auto;
+        width: 170px;
+    }
+    &__sendBtn{
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        color: #fefefd;
+        background-color: #d07d6b;
+        padding: 10px;
+        text-transform: uppercase;
+        margin-top: 20px;
+        display: block;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    &__mapDesc{
+        width: 100%;
+        margin-top: 90px;
+    }
+
+}
