@@ -473,4 +473,110 @@ a {
 .contact__mapDesc {
   width: 100%;
   margin-top: 90px;
+}
+
+.footer {
+  background-image: url("..//..//images/background/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 90px 0px 0px 0px;
+  width: 100%;
+  height: auto;
+}
+.footer__desc {
+  max-width: 1140px;
+}
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.footer__footerBox {
+  max-width: 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+}
+.footer__address {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: #fefefd;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+.footer__text {
+  width: 60%;
+  margin: 0 auto;
+  color: #fefefd;
+  text-align: center;
+  font-size: 16px;
+}
+.footer__data {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+}
+.footer__ul {
+  margin: 0;
+  padding: 0;
+}
+.footer__li {
+  color: #ffffff;
+  font-size: 16px;
+  padding: 0px 0px 5px 0px;
+}
+.footer__addressBtn {
+  color: #ffffff;
+}
+.footer__addressImg {
+  width: 13px;
+}
+.footer__addressNumber {
+  padding-left: 10px;
+}
+.footer__addressMail {
+  padding-left: 10px;
+}
+.footer__addressEmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer__email {
+  width: 100%;
+  color: #3b3b3b;
+  height: 55px;
+  padding: 10px 20px 0 20px;
+  font-size: 18px;
+  background-color: #efefef;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+  border: 0px;
+}
+.footer__emailBtn {
+  width: 70px;
+  padding-top: 20px;
+}
+.footer__addressEmailBtn {
+  width: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 13px 0 14px 0;
+  background-color: #d07d6b;
+  text-transform: uppercase;
+  text-align: center;
+}
+.footer__emailBtnImg {
+  max-width: 100%;
+  height: auto;
 }/*# sourceMappingURL=main.css.map */
