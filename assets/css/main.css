@@ -191,11 +191,25 @@ a {
   display: flex;
   gap: 1rem;
 }
+@media (max-width: 768px) {
+  .section__groupCard {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .section__card {
   width: 100%;
 }
 .section__cardImg {
   width: 100%;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .section__cardImg {
+    padding: 30px;
+  }
 }
 .section__h3 {
   font-size: 22px;
@@ -259,8 +273,20 @@ a {
   position: relative;
   width: 100%;
 }
+@media (max-width: 768px) {
+  .section2__imgdescribe {
+    position: static;
+  }
+}
 .section2__imgdesc {
   width: 860px;
+}
+@media (max-width: 768px) {
+  .section2__imgdesc {
+    width: 362px;
+    -webkit-transform: translate(-241px, 2px);
+            transform: translate(-241px, 2px);
+  }
 }
 .section2__textdesc {
   width: 500px;
@@ -272,6 +298,13 @@ a {
   position: absolute;
   top: 1180px;
   left: 30px;
+}
+@media (max-width: 768px) {
+  .section2__textdesc {
+    position: static;
+    margin-left: 8px;
+    width: 362px;
+  }
 }
 .section2__h1 {
   font-size: 30px;
@@ -514,6 +547,19 @@ a {
 .contact__mapDesc {
   width: 100%;
   margin-top: 90px;
+}
+@media (max-width: 768px) {
+  .contact__mapDesc {
+    display: none;
+  }
+}
+.contact__mapMobile {
+  margin-top: 20px;
+}
+@media (min-width: 769px) {
+  .contact__mapMobile {
+    display: none;
+  }
 }
 
 .footer {
