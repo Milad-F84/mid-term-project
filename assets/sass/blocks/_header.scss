@@ -45,7 +45,7 @@
     &__intro{
         @media (max-width: 768px){
             width: 100%;
-            padding: 90px 0px 100px 0px; 
+            padding: 90px 10px 100px 10px; 
            }
     }
     &__introContainer{
@@ -55,6 +55,11 @@
         @media (max-width: 768px){
             max-width: fit-content;
             flex-direction: column-reverse;
+           }
+    }
+    &__imgSlide{
+        @media (max-width: 768px){
+            width: 400px;
            }
     }
     &__descSlide{

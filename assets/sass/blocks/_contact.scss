@@ -14,6 +14,9 @@
     &__mailbox{
         width: 50%;
         margin: 0 auto;
+        @media (max-width: 768px){
+            margin: 0 65px;
+           }
     }
     &__user{
         width: 100%;
@@ -24,6 +27,9 @@
         padding: 11px 20px;
         border-radius: 40px;
         margin-top: 20px;
+        @media (max-width: 768px){
+            width: 300px;
+           }
     }
     &__massage{
         width: 100%;
@@ -35,11 +41,17 @@
         height: 110px;
         border-radius: 40px;
         margin-top: 20px;
+        @media (max-width: 768px){
+            width: 300px;
+           }
     }
     &__send{
         text-align: center;
         margin: 0 auto;
         width: 170px;
+        @media (max-width: 768px){
+            margin: 0 65px;
+           }
     }
     &__sendBtn{
         width: 100%;

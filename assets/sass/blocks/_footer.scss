@@ -25,6 +25,7 @@
         color: #fefefd;
         font-weight: bold;
         padding-bottom: 50px;
+        text-transform: capitalize;
     }
     &__text{
         width: 60%;
@@ -69,14 +70,17 @@
     &__email{
         width: 100%;
         color: #3b3b3b;
-        height: 55px;
-        padding: 10px 20px 0 20px;
+        height: 57px;
+        padding: 20px 20px 0 20px;
         font-size: 18px;
         background-color: #efefef;
         margin: 0 auto;
         display: block;
         margin-top: 20px;
         border: 0px;
+        @media (max-width: 768px){
+            width: 300px;
+           }
     }
     &__emailBtn{
         width: 70px;

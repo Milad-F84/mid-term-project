@@ -85,7 +85,7 @@ a {
 @media (max-width: 768px) {
   .header__intro {
     width: 100%;
-    padding: 90px 0px 100px 0px;
+    padding: 90px 10px 100px 10px;
   }
 }
 .header__introContainer {
@@ -108,6 +108,11 @@ a {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+  }
+}
+@media (max-width: 768px) {
+  .header__imgSlide {
+    width: 400px;
   }
 }
 .header__descSlide {
@@ -345,6 +350,12 @@ a {
   padding-bottom: 50px;
   margin-top: 80px;
 }
+@media (max-width: 768px) {
+  .customers {
+    background: rgba(208, 125, 107, 0.6);
+    background-size: cover;
+  }
+}
 .customers__titleDesc {
   width: 100%;
   text-align: center;
@@ -371,16 +382,39 @@ a {
   display: -ms-flexbox;
   display: flex;
 }
+@media (max-width: 768px) {
+  .customers__desc {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .customers__leftSection {
   width: 20%;
   padding-left: 50px;
+}
+@media (max-width: 768px) {
+  .customers__leftSection {
+    padding-left: 20px;
+  }
 }
 .customers__rightSection {
   width: 80%;
   padding-top: 20px;
 }
+@media (max-width: 768px) {
+  .customers__rightSection {
+    padding-left: 20px;
+  }
+}
 .customers__img {
   width: 90%;
+}
+@media (max-width: 768px) {
+  .customers__img {
+    width: 174px;
+  }
 }
 .customers__imgDesc {
   max-width: 100%;
@@ -404,6 +438,11 @@ a {
   width: 100%;
   padding-top: 60px;
 }
+@media (max-width: 768px) {
+  .blog {
+    padding-left: 10px;
+  }
+}
 .blog__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -413,13 +452,34 @@ a {
   margin-right: -15px;
   margin-left: -15px;
 }
+@media (max-width: 768px) {
+  .blog__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .blog__left {
   max-width: 50%;
   position: relative;
 }
+@media (max-width: 768px) {
+  .blog__left {
+    max-width: 100%;
+    overflow: hidden;
+  }
+}
 .blog__right {
   max-width: 50%;
   position: relative;
+}
+@media (max-width: 768px) {
+  .blog__right {
+    max-width: 100%;
+    margin-top: 40px;
+    overflow: hidden;
+  }
 }
 .blog__blogBox {
   width: 100%;
@@ -435,6 +495,12 @@ a {
   max-width: 100%;
   height: auto;
 }
+@media (max-width: 768px) {
+  .blog__img {
+    width: 400px;
+    height: 265px;
+  }
+}
 .blog__date {
   width: 100%;
   font-size: 18px;
@@ -446,6 +512,15 @@ a {
   position: absolute;
   top: -10px;
   left: 5px;
+}
+@media (max-width: 768px) {
+  .blog__date {
+    top: 11px;
+    left: -159px;
+    -webkit-transform: rotate(320deg);
+            transform: rotate(320deg);
+    padding: 10px;
+  }
 }
 .blog__title {
   width: 100%;
@@ -505,6 +580,11 @@ a {
   width: 50%;
   margin: 0 auto;
 }
+@media (max-width: 768px) {
+  .contact__mailbox {
+    margin: 0 65px;
+  }
+}
 .contact__user {
   width: 100%;
   font-size: 16px;
@@ -514,6 +594,11 @@ a {
   padding: 11px 20px;
   border-radius: 40px;
   margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .contact__user {
+    width: 300px;
+  }
 }
 .contact__massage {
   width: 100%;
@@ -526,10 +611,20 @@ a {
   border-radius: 40px;
   margin-top: 20px;
 }
+@media (max-width: 768px) {
+  .contact__massage {
+    width: 300px;
+  }
+}
 .contact__send {
   text-align: center;
   margin: 0 auto;
   width: 170px;
+}
+@media (max-width: 768px) {
+  .contact__send {
+    margin: 0 65px;
+  }
 }
 .contact__sendBtn {
   width: 100%;
@@ -595,6 +690,7 @@ a {
   color: #fefefd;
   font-weight: bold;
   padding-bottom: 50px;
+  text-transform: capitalize;
 }
 .footer__text {
   width: 60%;
@@ -641,14 +737,19 @@ a {
 .footer__email {
   width: 100%;
   color: #3b3b3b;
-  height: 55px;
-  padding: 10px 20px 0 20px;
+  height: 57px;
+  padding: 20px 20px 0 20px;
   font-size: 18px;
   background-color: #efefef;
   margin: 0 auto;
   display: block;
   margin-top: 20px;
   border: 0px;
+}
+@media (max-width: 768px) {
+  .footer__email {
+    width: 300px;
+  }
 }
 .footer__emailBtn {
   width: 70px;
