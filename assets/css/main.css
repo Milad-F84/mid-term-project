@@ -24,6 +24,12 @@ a {
   background-position: center;
   background-size: 100%;
 }
+@media (max-width: 768px) {
+  .header {
+    background-size: cover;
+    background-position: 0%;
+  }
+}
 .header__headerContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,8 +66,27 @@ a {
   text-transform: uppercase;
   font-size: 17px;
 }
+@media (max-width: 768px) {
+  .header__navItem {
+    display: none;
+  }
+}
+.header__navhamburger {
+  width: 30px;
+}
+@media (min-width: 769px) {
+  .header__navhamburger {
+    display: none;
+  }
+}
 .header__login {
   color: #d98473;
+}
+@media (max-width: 768px) {
+  .header__intro {
+    width: 100%;
+    padding: 90px 0px 100px 0px;
+  }
 }
 .header__introContainer {
   display: -webkit-box;
@@ -73,6 +98,17 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media (max-width: 768px) {
+  .header__introContainer {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
 }
 .header__descSlide {
   display: -webkit-box;
@@ -95,6 +131,11 @@ a {
   font-size: 24px;
   font-weight: bold;
   text-transform: capitalize;
+}
+@media (max-width: 768px) {
+  .header__h5 {
+    color: #fefefd;
+  }
 }
 .header__span {
   width: 100%;
@@ -230,7 +271,7 @@ a {
           box-shadow: 0px 0px 30px 0px;
   position: absolute;
   top: 1180px;
-  left: 0;
+  left: 30px;
 }
 .section2__h1 {
   font-size: 30px;
