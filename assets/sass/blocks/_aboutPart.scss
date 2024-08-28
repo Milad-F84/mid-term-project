@@ -1,0 +1,206 @@
+.aboutHeader{
+    background-image: url("..//..//images/background/header-bg.png");
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    @media (max-width: 768px){
+        background-size: cover;  
+        background-position: 0%; 
+       }
+    &__headerContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__userIcon{
+        width: 15px;
+    }
+    &__navbar{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+    &__navbarContainer{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    &__navItem{
+        text-transform: uppercase;
+        font-size: 17px;
+        @media (max-width: 768px){
+            display: none;   
+           }
+    }
+    &__navhamburger{
+        width: 30px;
+        @media (min-width:769px) {
+            display: none;
+        }
+    }
+}
+.about{
+    padding-top: 40px;
+    &__imgdescribe{
+        padding-left: 250px;
+        position: relative;
+        width: 100%;
+        @media (max-width: 768px){
+              position:static;
+           }
+    }
+    &__imgdesc{
+        width: 860px;
+        @media (max-width: 768px){
+            width: 362px;  
+            transform: translate(-241px, 2px);
+           }
+    }
+    &__textdesc{
+        width: 500px;
+        background-color: #ffffff;
+        height: auto;
+        padding: 40px 20px 30px 20px;
+        box-shadow: 0px 0px 30px 0px;
+        position: absolute;
+        top: 270px;
+        left: 30px;
+        @media (max-width: 768px){
+            position: static;
+            margin-left: 8px;
+            width: 362px;  
+           }
+    }
+    &__h1{
+        font-size: 30px;
+        color: #3b3b3b;
+        text-transform: capitalize;
+    }
+    &__p{
+        font-size: 16px;
+        color: #232222;
+    }
+    &__descbtn{
+        width: 170px;
+        margin-top: 40px;
+    }
+    &__btn{
+        font-size: 18px;
+        width: 100%;
+        color: #d78373;
+        text-transform: uppercase;
+        border: 1px solid #fc947f;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        transition: .5s;
+    }
+    &__btn :hover{
+        border: 1px solid #3b3b3b;
+        color: #3b3b3b;
+    }
+}
+.aboutFooter{
+    background-image: url("..//..//images/background/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 90px 0px 0px 0px;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    &__desc{
+        max-width: 1140px;
+    }
+    &__row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    &__footerBox{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    &__address{
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        color: #fefefd;
+        font-weight: bold;
+        padding-bottom: 50px;
+        text-transform: capitalize;
+    }
+    &__text{
+        width: 60%;
+        margin: 0 auto;
+        color: #fefefd;
+        text-align: center;
+        font-size: 16px;
+    }
+    &__data{
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 50px;
+        text-align: center;
+    }
+    &__ul{
+        margin: 0;
+        padding: 0;
+    }
+    &__li{
+        color: #ffffff;
+        font-size: 16px;
+        padding: 0px 0px 5px 0px;
+    }
+    &__addressBtn{
+        color: #ffffff;
+    }
+    &__addressImg{
+        width: 13px;
+    }
+    &__addressNumber{
+        padding-left: 10px;
+    }
+    &__addressMail{
+        padding-left: 10px;
+    }
+    &__addressEmail{
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__email{
+        width: 100%;
+        color: #3b3b3b;
+        height: 57px;
+        padding: 20px 20px 0 20px;
+        font-size: 18px;
+        background-color: #efefef;
+        margin: 0 auto;
+        display: block;
+        margin-top: 20px;
+        border: 0px;
+        @media (max-width: 768px){
+            width: 300px;
+           }
+    }
+    &__emailBtn{
+        width: 70px;
+        padding-top: 20px;
+    }
+    &__addressEmailBtn{
+        width: 100%;
+        color: #ffffff;
+        font-size: 16px;
+        padding: 13px 0 14px 0;
+        background-color: #d07d6b;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__emailBtnImg{
+        max-width: 100%;
+        height: auto;
+    }
+}
