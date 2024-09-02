@@ -66,6 +66,10 @@
         font-weight: bold;
         border-radius: 5px;
     }
+    &__map{
+        width: 80%;
+        margin: 0 auto;
+    }
     &__mapDesc{
         width: 100%;
         margin-top: 90px;
@@ -75,6 +79,7 @@
     }
     &__mapMobile{
         margin-top: 20px;
+        width: 100%;
         @media (min-width:769px) {
             display: none;
         }

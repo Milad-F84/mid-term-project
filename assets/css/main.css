@@ -17,6 +17,10 @@ a {
   margin-left: auto;
 }
 
+iframe {
+  width: 100%;
+}
+
 .header {
   background-image: url("..//..//images/background/slide-bg.png");
   height: auto;
@@ -273,8 +277,12 @@ a {
 .section2 {
   padding-top: 40px;
 }
+.section2__motherDiv {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+}
 .section2__imgdescribe {
-  padding-left: 250px;
   position: relative;
   width: 100%;
 }
@@ -286,11 +294,15 @@ a {
 .section2__imgdesc {
   width: 860px;
 }
+@media (min-width: 768px) {
+  .section2__imgdesc {
+    -webkit-transform: translate(-200px, 2px);
+            transform: translate(-200px, 2px);
+  }
+}
 @media (max-width: 768px) {
   .section2__imgdesc {
     width: 362px;
-    -webkit-transform: translate(-241px, 2px);
-            transform: translate(-241px, 2px);
   }
 }
 .section2__textdesc {
@@ -307,7 +319,6 @@ a {
 @media (max-width: 768px) {
   .section2__textdesc {
     position: static;
-    margin-left: 8px;
     width: 362px;
   }
 }
@@ -639,6 +650,10 @@ a {
   font-weight: bold;
   border-radius: 5px;
 }
+.contact__map {
+  width: 80%;
+  margin: 0 auto;
+}
 .contact__mapDesc {
   width: 100%;
   margin-top: 90px;
@@ -650,6 +665,7 @@ a {
 }
 .contact__mapMobile {
   margin-top: 20px;
+  width: 100%;
 }
 @media (min-width: 769px) {
   .contact__mapMobile {

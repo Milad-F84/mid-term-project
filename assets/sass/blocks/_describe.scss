@@ -17,8 +17,13 @@
 }
 .section2{
     padding-top: 40px;
+    &__motherDiv{
+        width: 80%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
     &__imgdescribe{
-        padding-left: 250px;
+        //padding-left: 250px;
         position: relative;
         width: 100%;
         @media (max-width: 768px){
@@ -27,9 +32,12 @@
     }
     &__imgdesc{
         width: 860px;
+        @media (min-width: 768px){
+            transform: translate(-200px, 2px);
+        }
         @media (max-width: 768px){
             width: 362px;  
-            transform: translate(-241px, 2px);
+            //transform: translate(-241px, 2px);
            }
     }
     &__textdesc{
@@ -43,7 +51,7 @@
         left: 30px;
         @media (max-width: 768px){
             position: static;
-            margin-left: 8px;
+            //margin-left: 8px;
             width: 362px;  
            }
     }
