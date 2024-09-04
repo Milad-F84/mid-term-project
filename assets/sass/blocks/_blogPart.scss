@@ -1,4 +1,4 @@
-.menuHeader{
+.blogHeader{
     background-image: url("..//..//images/background/header-bg.png");
     height: auto;
     background-repeat: no-repeat;
@@ -40,76 +40,7 @@
         }
     }
 }
-.menu{
-    &__h1{
-        width: 100%;
-        text-align: center;
-        font-size: 40px;
-        color: #3b3b3b;
-        text-transform: uppercase;
-        margin-top: 50px;
-    }
-    &__logoTitle{
-        width: 100%;
-        text-align: center;
-    }
-    &__logoImg{
-        max-width: 100%;
-    }
-    &__groupCard{
-        display: flex;
-        gap: 1rem;
-        @media (max-width: 768px){
-            flex-direction: column;   
-           }
-    }
-    &__card{
-        width: 100%;
-    }
-    &__cardImg{
-        width: 100%;
-        padding: 20px;
-        @media (max-width: 768px){
-            padding: 30px;   
-           }
-    }
-    &__h3{
-        font-size: 22px;
-        color: #3b3b3b;
-        text-align: center;
-        font-weight: bold;
-        padding-top: 20px;
-    }
-    &__p{
-        font-size: 16px;
-        color: #3b3b3b;
-        text-align: center;
-    }
-    &__btnGeneral{
-        display: flex;
-        width: 170px;
-        margin: 0 auto;
-        text-align: center;
-        padding-top: 20px;
-    }
-    &__btn{
-        width: 100%;
-        font-size: 16px;
-        color: #d78373;
-        text-align: center;
-        border-radius: 5px;
-        border: 1px solid #d78373;
-        text-transform: uppercase;
-        padding: 8px;
-        transition: .5s;
-    }
-    &__btn :hover{
-        border: 1px solid #3b3b3b;
-        color: #3b3b3b;
-        
-    }
-}
-.menuFooter{
+.blogFooter{
     background-image: url("..//..//images/background/footer-bg.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
