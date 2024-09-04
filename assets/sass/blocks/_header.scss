@@ -98,6 +98,7 @@
         border: none;
         transition: .5s;
         text-transform: capitalize;
+        cursor: pointer;
     }
     &__btnLeft:hover{
         background-color: #4a4949;
@@ -112,5 +113,6 @@
         color: #fefefd;
         border: none;
         text-transform: capitalize;
+        cursor: pointer;
     }
 }

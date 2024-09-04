@@ -63,6 +63,10 @@
         display: block;
         font-weight: bold;
         border-radius: 5px;
+        transition: .5s;
+    }
+    &__sendBtn:hover{
+        background-color: #3b3b3b;
     }
     &__map{
         width: 80%;
