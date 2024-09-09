@@ -64,7 +64,7 @@
     }
     &__imgSlide{
         @media (max-width: 768px){
-            width: 400px;
+            width: 100%;
            }
     }
     &__descSlide{
@@ -93,7 +93,7 @@
         color: #4a4949;
     }
     &__btnLeft{
-        width: 175px;
+        width: 40%;
         height: 57px;
         border-radius: 5px;
         font-size: 18px;
@@ -109,7 +109,7 @@
         background-color: #4a4949;
     }
     &__btnRight{
-        width: 175px;
+        width: 40%;
         height: 57px;
         border-radius: 5px;
         font-size: 18px;
