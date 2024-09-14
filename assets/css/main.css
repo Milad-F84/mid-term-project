@@ -26,7 +26,7 @@ iframe {
   height: auto;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
 }
 @media (max-width: 768px) {
   .header {
@@ -64,7 +64,7 @@ iframe {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 1rem;
+  gap: 0.75rem;
 }
 .header__navItem {
   text-transform: uppercase;
@@ -287,26 +287,20 @@ iframe {
 }
 .section2__motherDiv {
   width: 80%;
-  max-width: 457px;
+  max-width: 730px;
   margin: 0 auto;
-}
-.section2__imgdescribe {
   position: relative;
-  width: 100%;
 }
 @media (max-width: 768px) {
-  .section2__imgdescribe {
+  .section2__motherDiv {
     position: static;
   }
 }
-.section2__imgdesc {
-  width: 860px;
+.section2__imgdescribe {
+  width: 100%;
 }
-@media (min-width: 768px) {
-  .section2__imgdesc {
-    -webkit-transform: translate(-200px, 2px);
-            transform: translate(-200px, 2px);
-  }
+.section2__imgdesc {
+  width: 100%;
 }
 @media (max-width: 768px) {
   .section2__imgdesc {
@@ -314,15 +308,16 @@ iframe {
   }
 }
 .section2__textdesc {
-  width: 500px;
+  max-width: 600px;
+  width: 70%;
   background-color: #ffffff;
   height: auto;
   padding: 40px 20px 30px 20px;
   -webkit-box-shadow: 0px 0px 30px 0px;
           box-shadow: 0px 0px 30px 0px;
   position: absolute;
-  top: 1180px;
-  left: 30px;
+  top: 16px;
+  left: -100px;
 }
 @media (max-width: 768px) {
   .section2__textdesc {
@@ -880,26 +875,20 @@ iframe {
 }
 .about__motherDiv {
   width: 80%;
-  max-width: 457px;
+  max-width: 730px;
   margin: 0 auto;
-}
-.about__imgdescribe {
   position: relative;
-  width: 100%;
 }
 @media (max-width: 768px) {
-  .about__imgdescribe {
+  .about__motherDiv {
     position: static;
   }
 }
-.about__imgdesc {
-  width: 860px;
+.about__imgdescribe {
+  width: 100%;
 }
-@media (min-width: 768px) {
-  .about__imgdesc {
-    -webkit-transform: translate(-200px, 2px);
-            transform: translate(-200px, 2px);
-  }
+.about__imgdesc {
+  width: 100%;
 }
 @media (max-width: 768px) {
   .about__imgdesc {
@@ -909,15 +898,16 @@ iframe {
   }
 }
 .about__textdesc {
-  width: 500px;
+  max-width: 600px;
+  width: 70%;
   background-color: #ffffff;
   height: auto;
   padding: 40px 20px 30px 20px;
   -webkit-box-shadow: 0px 0px 30px 0px;
           box-shadow: 0px 0px 30px 0px;
   position: absolute;
-  top: 270px;
-  left: 30px;
+  top: 16px;
+  left: -100px;
 }
 @media (max-width: 768px) {
   .about__textdesc {
