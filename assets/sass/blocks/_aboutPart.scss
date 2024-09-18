@@ -24,7 +24,7 @@
     &__navbarContainer{
         display: flex;
         align-items: center;
-        gap: 1rem;
+        gap: .75rem;
     }
     &__navItem{
         text-transform: uppercase;
@@ -65,7 +65,7 @@
            }
     }
     &__textdesc{
-        max-width: 600px;
+        max-width: 614px;
         width: 70%;
         background-color: #ffffff;
         height: auto;
@@ -189,7 +189,7 @@
         margin-top: 20px;
         border: 0px;
         @media (max-width: 768px){
-            width: 300px;
+            width: 314px;
            }
     }
     &__emailBtn{
